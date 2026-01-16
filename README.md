@@ -8,11 +8,12 @@ A lightweight capacitor plugin to detect the dynamic color theme of android [**M
 npm i system-theme-color
 npx cap sync
 ```
+## Usage
 
 ```typescript
 import {SystemThemeColor} from 'system-theme-color';
 
-const colors = SystemThemeColor.getMaterialColors()
+const colors = await SystemThemeColor.getMaterialColors()
 
 ```
 **Returns:** <code>Promise&lt;{ primary: string, secondary:string, tertiary:string }&gt;</code>
@@ -22,11 +23,5 @@ const colors = SystemThemeColor.getMaterialColors()
 | Param   | version|
 |---------|--------|
 | Android | ✅ 12+ |
-iOS       |❌      
-Web       |❌
-
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
-
---------------------
-
-</docgen-api>
+|  iOS    |❌      |
+| Web     |❌
