@@ -1,6 +1,6 @@
 # system-theme-color
 
-A lightweight pulgin to detect the dynamic color theme of android material you
+A lightweight capacitor plugin to detect the dynamic color theme of android [**Material You**](https://m3.material.io/blog/announcing-material-you)
 
 ## Install
 
@@ -9,26 +9,16 @@ npm install system-theme-color
 npx cap sync
 ```
 
-## API
-
-<docgen-index>
-
-* [`echo(...)`](#echo)
-
-</docgen-index>
-
-<docgen-api>
-<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
-
-### echo(...)
-
 ```typescript
 echo(options: { value: string; }) => Promise<{ value: string; }>
 ```
+### Platform support
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
+| Param   | version|
+|---------|--------|
+| Android | ✅ 12+ |
+iOS       |❌      
+Web       |❌
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
