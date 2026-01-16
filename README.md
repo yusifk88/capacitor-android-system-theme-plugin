@@ -5,13 +5,18 @@ A lightweight capacitor plugin to detect the dynamic color theme of android [**M
 ## Install
 
 ```bash
-npm install system-theme-color
+npm i system-theme-color
 npx cap sync
 ```
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+import {SystemThemeColor} from 'system-theme-color';
+
+const colors = SystemThemeColor.getMaterialColors()
+
 ```
+**Returns:** <code>Promise&lt;{ primary: string, secondary:string, tertiary:string }&gt;</code>
+
 ### Platform support
 
 | Param   | version|
