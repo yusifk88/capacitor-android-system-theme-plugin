@@ -1,7 +1,7 @@
 {
   "name": "system-theme-color",
   "version": "0.0.1",
-  "description": "A lightweight pulgin to detect the dynamic color theme of android material you",
+  "description": "A lightweight plugin to detect the dynamic color theme of android material you",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -70,9 +70,6 @@
     "extends": "@ionic/eslint-config/recommended"
   },
   "capacitor": {
-    "ios": {
-      "src": "ios"
-    },
     "android": {
       "src": "android"
     }

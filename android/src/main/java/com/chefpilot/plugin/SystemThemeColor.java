@@ -1,11 +1,16 @@
 package com.chefpilot.plugin;
 
+import com.getcapacitor.BridgeActivity;
 import com.getcapacitor.Logger;
 
-public class SystemThemeColor {
+import com.chefpilot.plugin.SystemThemeColorPlugin;
 
-    public String echo(String value) {
-        Logger.info("Echo", value);
-        return value;
-    }
+public class SystemThemeColor extends BridgeActivity {
+
+//  @Override
+//  protected void onCreate(Bundle savedInstanceState) {
+//      super.onCreate(savedInstanceState);
+//      registerPlugin(SystemThemeColorPlugin.class);
+//  }
+
 }
