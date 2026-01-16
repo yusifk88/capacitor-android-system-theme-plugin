@@ -1,6 +1,6 @@
 {
   "name": "system-theme-color",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A lightweight plugin to detect the dynamic color theme of android material you",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
